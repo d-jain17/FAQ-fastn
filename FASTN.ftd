@@ -1,19 +1,11 @@
--- import: fastn
+-- import: fastn as f
 
--- fastn.package: d-jain17.github.io/faq-fastn
-favicon: /-/d-jain17.github.io/faq-fastn/favicon.ico
+-- f.package: expander
 
--- fastn.dependency: fastn-community.github.io/doc-site as doc-site
--- fastn.dependency: fastn-community.github.io/footer
--- fastn.dependency: fastn-community.github.io/roboto-typography
--- fastn.dependency: fastn-community.github.io/dark-flame-cs
+-- f.dependency: fifthtry.github.io/doc-site as ds
 
--- fastn.auto-import: d-jain17.github.io/faq-fastn/FASTN/ds
--- fastn.auto-import: d-jain17.github.io/faq-fastn/assets
--- fastn.auto-import: doc-site
+-- f.dependency: gargajit.github.io/expander
 
--- fastn.sitemap:
+-- f.dependency: fifthtry.github.io/admonitions
 
-# Home: index.html
-
-- Right Sidebar Sample: /sidebar/
+-- f.dependency: fastn-community.github.io/winter-cs
